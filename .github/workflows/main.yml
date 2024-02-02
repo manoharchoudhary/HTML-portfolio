@@ -23,4 +23,3 @@ jobs:
     - name: Deploy to S3
       run: |
         aws s3 sync . s3://my-html-portfoio-v1 --delete
-
